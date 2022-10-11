@@ -43,6 +43,7 @@ to Do an EDA, we made some visualisations using seaborn package in python and da
 check the report made using data studio [here](https://datastudio.google.com/embed/reporting/111a7378-786b-4e34-9df3-92aa38002a2b/page/3XY4C)
 
 **Data Preparation for machine learning**
+
 In order to prepare the data we dealt first with missing values. For numercial variables missing values were replaced by the median. in the other hand, missing values were replaced by the mode in the case of categorical variables.
 
 secondly, data were splitted into two parts. 80% as a training set and 20% as a test set
