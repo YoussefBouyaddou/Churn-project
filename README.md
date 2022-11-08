@@ -3,9 +3,9 @@
 <img src="https://github.com/YoussefBouyaddou/youssefbouyaddou.github.io/blob/main/images/airport.jpg" width=62% height=62%>
 
 
-Customer churn is a SaaS business metric that measures the amount of customers, accounts, contracts, bookings, etc. that a business has lost over a period of time. Also known as the rate of attrition or just plain “churn”, customer churn is one of the most widely-tracked and heavily-discussed subscription company metrics. 
+Customer churn is a SaaS business metric that measures the amount of customers, accounts, contracts, bookings, etc. that a business has lost over a period of time. Also known as the rate of attrition or just plain “churn”, customer churn is one of the most widely-tracked and heavily-discussed subscription company metrics.
 
-In this project, we used the data of a telecommunication company in order to do an explorative data analysis and to apply a model that can predict if a customer is going to leave the business or not. 
+In this project, we used the data of a telecommunication company in order to do explorative data analysis and to apply a model that can predict if a customer is going to leave the business or not. 
 * The data consists of the following variables : 
 
 1. **age** Represents the age of a customer 
@@ -34,24 +34,23 @@ In this project, we used the data of a telecommunication company in order to do 
 
 **Data Cleaning** 
 
-in this dataset we found some incorrect observations, for example in some numerical variables we found some negative values that shouldn't be negative. all incorrect values were replaced by NAs.
+in this dataset, we found some incorrect observations, for example in some numerical variables we found some negative values that shouldn't be negative. all incorrect values were replaced by NAs.
 
 **Explorative Data Analysis (EDA)** 
 
-to Do an EDA, we made some visualisations using seaborn package in python and data studio. the results we got from this analysis is that membreship_category and Negative_feedback variables both have an important effect on the churn rate. to minimize churn, the company should for example improve the customer experience by minimising ads on the website and improve the customer service.
-
+to Do an EDA, we made some visualizations using seaborn package in python and data studio. the result we got from this analysis is that membreship_category and Negative_feedback variables both have an important effect on the churn rate. to minimize churn, the company should for example improve the customer experience by minimizing ads on the website and improving customer service.
 check the report made using data studio [here](https://datastudio.google.com/embed/reporting/111a7378-786b-4e34-9df3-92aa38002a2b/page/3XY4C)
 
 **Data Preparation for machine learning**
 
-In order to prepare the data we dealt first with missing values. For numercial variables missing values were replaced by the median. in the other hand, missing values were replaced by the mode in the case of categorical variables.
+In order to prepare the data we dealt first with missing values. For numerical variables, missing values were replaced by the median. On the other hand, missing values were replaced by the mode in the case of categorical variables.
 
-secondly, data were splitted into two parts. 80% as a training set and 20% as a test set
+secondly, data were split into two parts. 80% as a training set and 20% as a test set
 
-finaly, varaibles were scaled using the Z-score Normalization
+finally, variables were scaled using the Z-score Normalization
 
 **Machine Learning** 
 
-the models applied to this problem are : Deep Neural Networks, Decision Tree, Random Forrest, And XGBoost. By comparing the models, we found that XGBoost performs better with a test accuracy equals to 93.75%
+Models applied to this problem are Deep Neural Networks, Decision Tree, Random Forrest, And XGBoost. By comparing the models, we found that XGBoost performs better with a test accuracy equal to 93.75%
 
 
